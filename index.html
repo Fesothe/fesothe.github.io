@@ -1,15 +1,388 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fesothe - Developer Website</title>
-</head>
-<body>
-<p>https://www.thingiverse.com/fesothe/designs</p>
-<p>https://kuula.co/profile/fesothe</p>
-<p>https://sketchfab.com/fesothe</p>
-<p>https://files.fesothe.com</p>
-<p>https://torrents.fesothe.com</p>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "name": "Velivian Fesothe",
+    "url": "https://fesothe.com",
+    "image": "https://cdn.furrys.org/fesothe.com/images/fesothe_schema_avatar.png"
+}
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7TV8E31GB7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7TV8E31GB7');
+</script>
+
+<style>
+
+.bg-ribbon-footer {
+    background: #212529 !important;
+    text-align: center;
+    color: white;
+    border-top: 1px solid #3a4553;
+}
+
+@media (min-width: 992px) {
+    .landing-section.py-5 {
+        padding-top: 12rem !important;
+    }
+}
+
+.my-cover {
+    padding-bottom: 10rem !important;
+}
+
+.bg-dark-topnav {
+    background-color: #000000 !important;
+    height: 70px;
+}
+
+.footer-links:hover {
+  color: red !important;
+  background-color: black;
+}
+
+.text-black {
+    color: black !important;
+    text-align: center;
+}
+
+.text-left {
+    color: black !important;
+    text-align: left;
+}
+
+.centered-titles{
+    color: black !important;
+    text-align: center;
+}
+
+body a.tablelink {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+body a.urllink {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+thead#linktable {
+    text-align: center !important;
+}
+
+thead#imagetable {
+    text-align: center !important;
+}
+
+table {
+    color: #000000 !important;
+}
+
+</style>
+
+    <meta name="description" content="A developer page about github projects made by Velivian Fesothe." />
+    <meta name="author" content="Velivian Fesothe, Mark Otto, Jacob Thornton, and Bootstrap contributors">
+
+    <!-- Custom metatags for og/fb -->
+
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Velivian Fesothe Development Portal" />
+    <meta property="og:description" content="Velivian Fesothes development portal" />
+    <meta property="og:url" content="https://dev.fesothe.com" />
+    <meta property="og:site_name" content="Velivian Fesothe Development Portal" />
+    <meta property="og:image" content="https://cdn.furrys.org/fesothe.com/images/socialcovers/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/png" />
+
+    <!-- Custom metatags for X -->
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@fesothe" />
+    <meta name="twitter:title" content="Velivian Fesothes Development Portal" />
+    <meta name="twitter:description" content="Velivian Fesothe, A fustachioed furbrained oddity! https://dev.fesothe.com" />
+    <meta name="twitter:image" content="https://cdn.furrys.org/fesothe.com/images/socialcovers/x.png" />
+
+    <!-- Custom metatags for Apple -->
+
+    <meta name="apple-mobile-web-app-title" content="Fesothe" />
+
+    <!-- End metatags for Apple -->
+
+    <title>Velivian Fesothe - Developer Portal</title>
+
+    <link rel="canonical" href="https://dev.fesothe.com" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/webmanifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#000000">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Preload DNS -->
+
+    <link rel="dns-prefetch" href="//fesothe.tel">
+    <link rel="dns-prefetch" href="//www.linkedin.com">
+
+    <!-- Preload Fonts -->
+
+    <link rel="preload" href="/r83xvn19w52t9kqb7lu/fonts/LondrinaSolid-Light.ttf" as="font" type="font/ttf" crossorigin>
+
+    <!-- Bootstrap core CSS -->
+
+    <link href="/r83xvn19w52t9kqb7lu/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+
+    <link href="/r83xvn19w52t9kqb7lu/css/heroes.css" rel="stylesheet">
+    <link href="/r83xvn19w52t9kqb7lu/css/theme.css" rel="stylesheet">
+    <link href="/r83xvn19w52t9kqb7lu/css/cookiealert.css" rel="stylesheet">
+
+  </head>
+  <body>
+   
+   <div>
+    <header class="flex-wrap">
+
+        <div class="container">
+            <div class="row justify-content-center">
+
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="container">
+                <div class="row justify-content-between">
+                        <div class="col">
+                            
+                        </div>
+                        <div class="col d-flex justify-content-end">
+                            <div class="social-media">
+                            <p class="mb-0 d-flex">
+                                <a href="https://www.facebook.com/fesothe.tech" class="d-flex align-items-center justify-content-center"><span class="fab fa-facebook hover-black"><i class="sr-only">Facebook</i></span></a>
+                                <a href="https://x.com/fesothe" class="d-flex align-items-center justify-content-center"><span class="fab fa-twitter hover-black"><i class="sr-only">Twitter</i></span></a>
+                                <a href="https://www.youtube.com/@Fesothe" class="d-flex align-items-center justify-content-center"><span class="fab fa-youtube hover-black"><i class="sr-only">YouTube</i></span></a>
+                                <a href="https://www.pinterest.co.uk/fesothe/" class="d-flex align-items-center justify-content-center"><span class="fab fa-pinterest hover-black"><i class="sr-only">Pinterest</i></span></a>
+                                <a href="https://www.linkedin.com/in/velivian.fesothe/" class="d-flex align-items-center justify-content-center"><span class="fab fa-linkedin hover-black"><i class="sr-only">Linkedin</i></span></a>
+                                <a href="https://instagram.com/velivian.fesothe" class="d-flex align-items-center justify-content-center"><span class="fab fa-instagram hover-black"><i class="sr-only">Instagram</i></span></a>
+                            </p>
+                    </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-red border-bottom">
+  <div class="container-fluid">
+    <a href="https://fesothe.com" class="d-flex align-items-center">
+        <img class="mx-auto mb-6" src="/fesothe_text_logo.png" alt="" width="80" height="80">
+      </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav nav-pills ms-auto mb-2 mb-lg-0">
+        <li class="nav-item w-100"><a href="https://fesothe.com" class="nav-link" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="https://fesothe.com/blog/search?q=news" class="nav-link">News</a></li>
+        <li class="nav-item"><a href="https://fesothe.com/gallery/" class="nav-link">Gallery</a></li>
+        <li class="nav-item"><a href="https://www.linkedin.com/in/velivian-fesothe/" class="nav-link">Contact</a></li>
+        <li class="nav-item"><a href="https://fesothe.tel" class="nav-link">Links</a></li>  
+        <li class="nav-item"><a href="https://www.youtube.com/@Fesothe" class="nav-link">YouTube</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>  
+    <!-- END nav -->
+    </header>
+  </div>
+
+<div class="bg-about text-secondary px-4 text-center">
+    <div class="py-5">
+      <h1 class="display-5 fw-bold text-black">Velivian Fesothe - Development Portal</h1>
+      <div class="col-lg-6 mx-auto text-black"><h4>A development portal by Velivian Fesothe on projects</h4></br>
+        <p class="fs-5 mb-4 text-black">This development portal about Velivian Fesothe projects, it's accessible at <a href="https://dev.fesothe.com" class="urllink">https://dev.fesothe.com</a></p>
+            <p class="fs-5 mb-4 about-text text-black">
+<ul>
+  <li class="li-bullets text-left">Effective Date: 31/10/2025</li>
+  <li class="li-bullets text-left">Last Updated: 31/10/2025</li>
+</ul>
+</p>
+<hr>
+</br>
+
+<p class="fs-5 mb-4 text-left">Coming Soon</p>
+
+
+</div></div></div>
+
+</br>
+<!-- New table section -->
+<div class="table-section">
+  <div class="container-fluid table-width">
+    <div class="row justify-content-center">
+      <div class="col-md-1 d-none d-md-block"></div>
+      <div class="col-12 col-md-2">
+        <!-- Table 1 -->
+        <table class="table table-borderless table-responsive">
+          <thead>
+             <th><a class="link-danger footer-links" href="/about/">About</a></th>
+          </thead>
+          <tbody>
+            <tr><td>
+              <ul class="list-group">
+          <li class="list-group-item"><a class="link-danger footer-links" href="/media/">Media</a></li>
+          <li class="list-group-item"><a class="link-danger footer-links" href="/articles/">Articles</a></li>
+          <li class="list-group-item"><a class="link-danger footer-links" href="/about/topics/">Topics</a></li>
+          <li class="list-group-item"><a class="link-danger footer-links" href="/links/">Links</a></li>
+          <li class="list-group-item"><a class="link-danger footer-links" href="/newsletters/">Newsletters</a>
+            <li class="list-group-item"><a class="link-danger footer-links" href="/statements/">Statements</a></li>
+              </ul>
+            </td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-1 d-none d-md-block"></div>
+      <div class="col-12 col-md-2">
+        <!-- Table 2 -->
+        <table class="table table-borderless table-responsive">
+          <thead>
+            <th><a class="link-danger footer-links" href="/business/">Business</a></th>
+          </thead>
+          <tbody>
+            <tr><td>
+              <ul class="list-group">
+                <li class="list-group-item"><a class="link-danger footer-links" href="https://furtainment.com">furtainment.com</a></li>
+          <li class="list-group-item"><a class="link-danger footer-links" href="https://furshows.com">furshows.com</a></li>
+          <li class="list-group-item"><a class="link-danger footer-links" href="https://snackferret.com">snackferret.com
+          <li class="list-group-item"><a class="link-danger footer-links" href="https://glowraiser.com">glowraiser.com</a></li>
+          <li class="list-group-item"><a class="link-danger footer-links" href="https://furportal.news">furportal.news</a></li>
+          <li class="list-group-item"><a class="link-danger footer-links" href="https://the.furrys.party">the.furrys.party</a></li>
+              </ul>
+            </td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-1 d-none d-md-block"></div>
+      <div class="col-12 col-md-2">
+        <!-- Table 3 -->
+        <table class="table table-borderless table-responsive">
+          <thead>
+            <th><a class="link-danger footer-links" href="/resources/">Resources</a></th>
+          </thead>
+          <tbody>
+            <tr><td>
+              <ul class="list-group">
+                <li class="list-group-item"><a class="link-danger footer-links" href="/archive/">Archive</a></li>
+          <li class="list-group-item"><a class="link-danger footer-links" href="/gallery/">Gallery</a></li>
+          <li class="list-group-item"><a class="link-danger footer-links" href="https://viewerverse.com/avatars/">3D Avatars</a></li>
+          <li class="list-group-item"><a class="link-danger footer-links" href="https://sketchfab.com/fesothe/collections/">3D Models</a></li>
+          <li class="list-group-item"><a class="link-danger footer-links" href="https://github.com/Fesothe/">GitHub</a></li>
+          <li class="list-group-item"><a class="link-danger footer-links" href="https://kewllab.com/">Lab</a></li>
+              </ul>
+            </td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-1 d-none d-md-block"></div>
+      <div class="col-12 col-md-2">
+        <!-- Table 4 -->
+        <table class="table table-borderless table-responsive">
+          <thead>
+            <th><a class="link-danger footer-links" href="/legal/"rel="nofollow">Legal</a></th>
+          </thead>
+          <tbody>
+            <tr><td>
+              <ul class="list-group">
+                <li class="list-group-item"><a class="link-danger footer-links" href="/legal/privacy-policy/">Privacy Policy</a></li>
+          <li class="list-group-item"><a class="link-danger footer-links" href="/legal/terms-of-use/">Terms of Use</a></li>
+          <li class="list-group-item"><a class="link-danger footer-links" href="/legal/cookie-policy/">Cookie Policy</a></li>
+          <li class="list-group-item"><a class="link-danger footer-links" href="/legal/ai-disclosure-policy/">AI Disclosure Policy</a></li>
+              </ul>
+            </td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-1 d-none d-md-block"></div>
+    </div>
+  </div>
+</div>
+
+<div class="mt-auto text-white-50 bg-ribbon-footer"><p></br><a href="https://en.wikifur.com/wiki/Fesothe" class="align-items-center">
+        <img class="mx-auto mb-6" src="/fesothe_text_logo.png" loading="lazy" alt="Fesothe Footer Logo" width="80" height="80">
+      </a></p></div>
+
+<footer class="mt-auto text-white-50 bg-red">
+</br>
+    <p class="copyright">Copyright © 2016 - <span id="year"></span> <a href="https://fesothe.com" class="text-white copyright">fesothe.com</a>, All rights reserved.</p>
+    <p class="copyright"><a href="https://twubs.com/certifiablyfurry" class="text-white copyright">#certifiablyfurry</a></p>
+    <p>
+    <!-- Facebook -->
+<a style="color: #FFFFFF;" href="https://www.facebook.com/velivian.fesothe" role="button" aria-label="Visit Fesothe on Facebook"
+  ><i class="fab fa-facebook-f fa-lg"></i
+></a>
+
+<!-- Twitter -->
+<a style="color: #FFFFFF;" href="https://x.com/fesothe" role="button" aria-label="Visit Fesothe on X"
+  ><i class="fab fa-twitter fa-lg"></i></i
+></a>
+
+<!-- YouTube -->
+<a style="color: #FFFFFF;" href="https://www.youtube.com/@fesothe" role="button" aria-label="Visit Fesothe on YouTube"
+  ><i class="fab fa-youtube fa-lg"></i
+></a>
+
+<!-- Pinterest -->
+<a style="color: #FFFFFF;" href="https://www.pinterest.co.uk/fesothe/" role="button" aria-label="Visit Fesothe on Pinterest"
+  ><i class="fab fa-pinterest fa-lg"></i
+></a>
+
+<!-- LinkedIn -->
+<a style="color: #FFFFFF;" href="https://www.linkedin.com/in/velivian-fesothe" role="button" aria-label="Visit Fesothe on LinkedIn"
+  ><i class="fab fa-linkedin fa-lg"></i
+></a>
+
+<!-- Instagram -->
+<a style="color: #FFFFFF;" href="https://www.instagram.com/velivian.fesothe/" role="button" aria-label="Visit Fesothe on Instagram"
+  ><i class="fab fa-instagram fa-lg"></i
+></a>
+
+<!-- Wikifur -->
+<a style="color: #FFFFFF;" href="https://en.wikifur.com/wiki/Fesothe" role="button" aria-label="Visit Fesothe on Wikifur"
+  ><i class="fa fa-paw fa-lg"></i
+></a>
+
+<!-- Telegram -->
+<a style="color: #FFFFFF;" href="https://t.me/fesothe" role="button" aria-label="Message Fesothe on Telegram"
+  ><i class="fab fa-telegram fa-lg"></i
+></a>
+
+    </p>
+    </br>
+    </footer>
+    </main>
+
+    <script src="/r83xvn19w52t9kqb7lu/js/bootstrap.bundle.min.js"></script>
+    <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
+    <script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
+      
+  </body>
 </html>
